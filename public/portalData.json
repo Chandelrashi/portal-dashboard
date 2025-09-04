@@ -1,0 +1,102 @@
+{
+  "company": {
+    "name": "Your Portal",
+    "tagline": "Turn ideas into products",
+    "owner": "You"
+  },
+  "metrics": [
+    {
+      "label": "Active Ideas",
+      "value": 12
+    },
+    {
+      "label": "In Validation",
+      "value": 5
+    },
+    {
+      "label": "MVPs Shipped",
+      "value": 3
+    },
+    {
+      "label": "Avg. Confidence",
+      "value": "72%"
+    }
+  ],
+  "chart": {
+    "monthly": [
+      {
+        "month": "Jan",
+        "ideas": 4,
+        "mvps": 0
+      },
+      {
+        "month": "Feb",
+        "ideas": 6,
+        "mvps": 1
+      },
+      {
+        "month": "Mar",
+        "ideas": 7,
+        "mvps": 1
+      },
+      {
+        "month": "Apr",
+        "ideas": 10,
+        "mvps": 2
+      },
+      {
+        "month": "May",
+        "ideas": 12,
+        "mvps": 2
+      },
+      {
+        "month": "Jun",
+        "ideas": 14,
+        "mvps": 3
+      }
+    ]
+  },
+  "ideas": [
+    {
+      "id": "idea-1",
+      "title": "AI Meeting Notes",
+      "status": "Validation",
+      "confidence": 0.68,
+      "summary": "Summarize calls and action items automatically.",
+      "owner": "Alex",
+      "nextSteps": [
+        "User interviews",
+        "Landing page test",
+        "Pricing survey"
+      ]
+    },
+    {
+      "id": "idea-2",
+      "title": "Local Pantry App",
+      "status": "Discovery",
+      "confidence": 0.55,
+      "summary": "Marketplace for surplus groceries from local stores.",
+      "owner": "Priya",
+      "nextSteps": [
+        "Partner outreach",
+        "Prototype payment flow"
+      ]
+    },
+    {
+      "id": "idea-3",
+      "title": "DevOps Copilot",
+      "status": "MVP",
+      "confidence": 0.82,
+      "summary": "Automated pipeline suggestions and fixes.",
+      "owner": "Jordan",
+      "nextSteps": [
+        "Beta onboarding",
+        "Docs"
+      ]
+    }
+  ],
+  "auth": {
+    "username": "admin",
+    "password": "admin123"
+  }
+}
