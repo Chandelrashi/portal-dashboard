@@ -5,6 +5,6 @@ import react from '@vitejs/plugin-react'
 // set base: '/your-repo/' below.
 export default defineConfig({
   plugins: [react()],
-  base: '/', 
+  base: '/portal-dashboard/', 
   server: { port: 5173 }
 })
