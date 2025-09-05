@@ -11,8 +11,7 @@ const withAuth = (element: JSX.Element) => (isAuthed() ? element : <Navigate to=
 
 export const router = createBrowserRouter([
   {
-    path: '/',
-    element: <App />,
+    path: '/'    element: <App />,
     children: [
       { index: true, element: <Navigate to="/dashboard" replace /> },
       { path: 'login', element: <Login /> },
